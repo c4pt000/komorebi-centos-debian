@@ -16,6 +16,8 @@
 alt="Komorebi Demo" width="240" height="180" border="10" /><br>Watch demo</a>
 </p>
 
+https://github.com/c4pt000/komorebi/releases
+
 
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE Otherthoughts,
