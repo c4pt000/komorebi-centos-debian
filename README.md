@@ -97,6 +97,74 @@ Komorebi was originally intended to run on an unreleased OS project. Since many 
 It is possible to change the file structure with code changes and a `postinst` script but I'd rather keep it as is for now or if you have the time to make one, feel free to do so and submit a PR!
 
 
+
+#CentOS/Fedora/RHEL/SuSE Otherthoughts,
+
+apt-get install alien
+alien -r --scripts komorebi-2.1-64-bit.deb
+
+cd /System/Applications/
+sudo cp -rf komorebi* /usr/bin/
+
+for centos support
+add nux desktop
+(for video wallpaper support)
+yum install gstreamer1-libav.x86_64
+
+
+
+
+
+
+
+
+
+
+
+
+
+(for video container conversion)
+yum install winff ffmpeg
+
+seems like conversion to .mp4 video ?
+
+
+? as a template
+cd /System/Resources/Komorebi/
+cp -rf aerial_mountain_and_ocean aerial_mountain_and_ocean.orig
+cd aerial_mountain_and_ocean
+mv video.mp4 video.mp4.orig
+mv wallpaper.jpg wallpaper.jpg.orig
+cp -rf /home/user/Desktop/out.mp4 video.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Forked from,
+
 ## Status of Development
 
 Komorebi still receives updates but they are not as frequent due to my involvement in other open-source projects.
