@@ -50,18 +50,27 @@ make -j8 package
 
 
 
-
+# ** optional (nux-desktop)
+<br>
+ yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+ <br>
+yum install ffmpeg winff
 
 # ** scripts to help edit to video wallpaper
 
+<br>
 cat /usr/bin/ffmpeg-to-jpg-conv 
+<br>
 ffmpeg -i ./video.ogv -r 1 -f image2 image-%3d.jpeg
 
-cat /usr/bin/ffmpeg-jpg-to-mp4-conv 
+<br>
+cat /usr/bin/ffmpeg-jpg-to-mp4-conv
+<br>
 ffmpeg -r 1 -f image2 -i image-%3d.jpeg video.ogv
 
 
 # ** for conversion from .ogv to .mp4 format
+<br>
 ffmpeg -i video.ogv video.mp4
 
 
