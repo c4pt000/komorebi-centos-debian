@@ -21,16 +21,27 @@ https://github.com/c4pt000/komorebi/releases
 
 ## CentOS
 
+<br>
 yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
+<br>
 scl enable devtoolset-6 bash
+<br>
 cd /opt
+<br>
 git clone https://github.com/c4pt000/komorebi
+<br>
 cd komorebi
+<br>
 cp -rf CMakeLists.txt CMakeLists.txt.deb
+<br>
 cp -rf CMakeLists.txt.rpm CMakeLists.txt
+<br>
 mkdir build
+<br>
 cd build
+<br>
 cmake3 ..
+<br>
 make -j8 package
 
 
