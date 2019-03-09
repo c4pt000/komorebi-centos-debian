@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/screenshots/komorebi-icon.png" width="130"></p>
+https://github.com/cheesecakeufo/komorebi<p align="center"><img src="https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/screenshots/komorebi-icon.png" width="130"></p>
 <h2 align="center">Komorebi - Animated Wallpapers for Linux</h2>
 <p align="center">(n) sunlight filtering through trees.</p>
 
@@ -98,32 +98,6 @@ ffmpeg -i video.ogv video.mp4
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## What is Komorebi?
 
 Komorebi is an awesome animated wallpapers manager for all Linux platforms.
@@ -138,7 +112,7 @@ Two ways:
 
 ### Packaged install (easy)
 
-1. Download `Komorebi` from the [Komorebi releases page](https://github.com/cheesecakeufo/komorebi/releases).
+1. Download `Komorebi` from the [Komorebi releases page](https://github.com/c4pt000/komorebi-centos/releases).
 2. Install Komorebi using your favorite package installer (aka. double click on it)
 3. Launch Komorebi!
 
