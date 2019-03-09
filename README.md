@@ -49,6 +49,25 @@ cmake3 ..
 make -j8 package
 
 
+
+
+
+# ** scripts to help edit to video wallpaper
+
+cat /usr/bin/ffmpeg-to-jpg-conv 
+ffmpeg -i ./video.ogv -r 1 -f image2 image-%3d.jpeg
+
+cat /usr/bin/ffmpeg-jpg-to-mp4-conv 
+ffmpeg -r 1 -f image2 -i image-%3d.jpeg video.ogv
+
+
+# ** for conversion from .ogv to .mp4 format
+ffmpeg -i video.ogv video.mp4
+
+
+
+
+
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE Otherthoughts,
 
