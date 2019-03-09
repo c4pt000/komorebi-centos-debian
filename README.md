@@ -22,9 +22,13 @@ https://github.com/c4pt000/komorebi/releases
 ## CentOS
 
 <br>
+
 yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
+
 <br>
+
 yum install https://github.com/c4pt000/komorebi/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
+
 <br>
 
 scl enable devtoolset-6 bash
@@ -52,8 +56,11 @@ make -j8 package
 
 # ** optional (nux-desktop)
 <br>
+
  yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
- <br>
+
+<br>
+
 yum install ffmpeg winff
 
 # ** scripts to help edit to video wallpaper
