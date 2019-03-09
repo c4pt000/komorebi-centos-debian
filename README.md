@@ -19,6 +19,21 @@ alt="Komorebi Demo" width="240" height="180" border="10" /><br>Watch demo</a>
 https://github.com/c4pt000/komorebi/releases
 
 
+## CentOS
+
+yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
+scl enable devtoolset-6 bash
+cd /opt
+git clone https://github.com/c4pt000/komorebi
+cd komorebi
+cp -rf CMakeLists.txt CMakeLists.txt.deb
+cp -rf CMakeLists.txt.rpm CMakeLists.txt
+mkdir build
+cd build
+cmake3 ..
+make -j8 package
+
+
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE Otherthoughts,
 
