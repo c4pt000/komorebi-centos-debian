@@ -142,7 +142,7 @@ Two ways:
 2. Install Komorebi using your favorite package installer (aka. double click on it)
 3. Launch Komorebi!
 
-### Manual Installing (advanced)
+### Manual Installing (advanced) Debian/Ubuntu
 
 Run the following:
 ```
@@ -150,11 +150,33 @@ sudo add-apt-repository ppa:gnome3-team/gnome3 -y
 sudo add-apt-repository ppa:vala-team -y
 sudo add-apt-repository ppa:gnome3-team/gnome3-staging -y
 sudo apt install cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev
-git clone https://github.com/cheesecakeufo/komorebi.git
+git clone https://github.com/c4pt000/komorebi
 cd komorebi
 mkdir build && cd build
 cmake .. && sudo make install && ./komorebi
 ```
+
+### Manually Installing (advanced) CentOS/RHEL/Fedora
+```
+## CentOS
+
+yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
+
+yum install https://github.com/c4pt000/komorebi/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
+
+scl enable devtoolset-6 bash
+
+cd /opt
+git clone https://github.com/c4pt000/komorebi
+cd komorebi
+cp -rf CMakeLists.txt CMakeLists.txt.deb
+cp -rf CMakeLists.txt.rpm CMakeLists.txt
+mkdir build
+cd build
+cmake3 ..
+make -j8 package
+```
+
 
 ## Change Wallpaper & Desktop Preferences
 To change desktop preferences or your wallpaper, right click anywhere on the desktop to show the menu.
