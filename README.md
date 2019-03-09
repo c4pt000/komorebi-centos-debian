@@ -24,7 +24,10 @@ https://github.com/c4pt000/komorebi/releases
 <br>
 yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
 <br>
+<br>
+
 scl enable devtoolset-6 bash
+<br>
 <br>
 cd /opt
 <br>
