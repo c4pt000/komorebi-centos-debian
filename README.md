@@ -16,7 +16,7 @@
 alt="Komorebi Demo" width="240" height="180" border="10" /><br>Watch demo</a>
 </p>
 
-https://github.com/c4pt000/komorebi/releases
+https://github.com/c4pt000/komorebi-centos/releases
 
 
 ## CentOS
@@ -27,7 +27,7 @@ yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64
 
 <br>
 
-yum install https://github.com/c4pt000/komorebi/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
+yum install https://github.com/c4pt000/komorebi-centos/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
 
 <br>
 
@@ -36,9 +36,9 @@ scl enable devtoolset-6 bash
 <br>
 cd /opt
 <br>
-git clone https://github.com/c4pt000/komorebi
+git clone https://github.com/c4pt000/komorebi-centos
 <br>
-cd komorebi
+cd komorebi-centos
 <br>
 cp -rf CMakeLists.txt CMakeLists.txt.deb
 <br>
@@ -150,7 +150,7 @@ sudo add-apt-repository ppa:gnome3-team/gnome3 -y
 sudo add-apt-repository ppa:vala-team -y
 sudo add-apt-repository ppa:gnome3-team/gnome3-staging -y
 sudo apt install cmake valac libgtk-3-dev libgee-0.8-dev libclutter-gtk-1.0-dev libclutter-1.0-dev libwebkit2gtk-4.0-dev libclutter-gst-3.0-dev
-git clone https://github.com/c4pt000/komorebi
+git clone https://github.com/c4pt000/komorebi-centos
 cd komorebi
 mkdir build && cd build
 cmake .. && sudo make install && ./komorebi
@@ -162,13 +162,13 @@ cmake .. && sudo make install && ./komorebi
 
 yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
 
-yum install https://github.com/c4pt000/komorebi/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
+yum install https://github.com/c4pt000/komorebi-centos/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
 
 scl enable devtoolset-6 bash
 
 cd /opt
-git clone https://github.com/c4pt000/komorebi
-cd komorebi
+git clone https://github.com/c4pt000/komorebi-centos
+cd komorebi-centos
 cp -rf CMakeLists.txt CMakeLists.txt.deb
 cp -rf CMakeLists.txt.rpm CMakeLists.txt
 mkdir build
@@ -234,29 +234,7 @@ It is possible to change the file structure with code changes and a `postinst` s
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* Forked from,
+## ** Forked from,   https://github.com/cheesecakeufo/komorebi
 
 ## Status of Development
 
