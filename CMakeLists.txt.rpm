@@ -22,7 +22,6 @@ include(ValaPrecompile)
 
 find_package(Vala REQUIRED)
 
-
 ensure_vala_version("0.16" MINIMUM)
 vala_precompile(VALA_C
     src/Main.vala
