@@ -85,35 +85,7 @@ ffmpeg -i video.ogv video.mp4
 
 
 ## reason of fork
-## CentOS/Fedora/RHEL/SuSE Otherthoughts,
-
-apt-get install alien
-alien -r --scripts komorebi-2.1-64-bit.deb
-
-cd /System/Applications/
-sudo cp -rf komorebi* /usr/bin/
-
-for centos support
-add nux desktop
-(for video wallpaper support)
-yum install gstreamer1-libav.x86_64
-
-
-
-
-(for video container conversion)
-yum install winff ffmpeg
-
-seems like conversion to .mp4 video ?
-
-
-? as a template
-cd /System/Resources/Komorebi/
-cp -rf aerial_mountain_and_ocean aerial_mountain_and_ocean.orig
-cd aerial_mountain_and_ocean
-mv video.mp4 video.mp4.orig
-mv wallpaper.jpg wallpaper.jpg.orig
-cp -rf /home/user/Desktop/out.mp4 video.mp4
+## CentOS/Fedora/RHEL/SuSE
 
 
 
