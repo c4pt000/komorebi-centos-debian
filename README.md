@@ -63,7 +63,7 @@ make -j8 package
 
 yum install ffmpeg winff
 
-# ** scripts to help edit to video wallpaper
+# ** scripts to help edit or create video wallpaper
 
 <br>
 cat /usr/bin/ffmpeg-to-jpg-conv 
