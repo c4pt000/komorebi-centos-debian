@@ -19,6 +19,9 @@ alt="Komorebi Demo" width="240" height="180" border="10" /><br>Watch demo</a>
 https://github.com/c4pt000/komorebi-centos/releases
 
 
+
+https://i.imgur.com/xSC8of3.jpg
+
 * added support to display seconds with the wallpaper clock
 
 https://github.com/c4pt000/komorebi-centos/releases/tag/seconds
