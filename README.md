@@ -19,6 +19,8 @@ alt="Komorebi Demo" width="240" height="180" border="10" /><br>Watch demo</a>
 https://github.com/c4pt000/komorebi-centos/releases
 
 
+* added support to display seconds with the wallpaper clock
+
 ## CentOS
 
 <br>
