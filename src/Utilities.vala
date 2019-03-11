@@ -155,11 +155,12 @@ namespace Komorebi.Utilities {
 	public string formatDateTime (DateTime dateTime) {
 
 
-		// support added for seconds in the wallpaper clock
+		// support added for seconds in the wallpaper clock %M //g/   ,%S
 		if (OnScreen.timeTwentyFour)
 			return dateTime.format("%m/%d/%Y %H:%M:%S");
 
 		return dateTime.format("%m/%d/%Y %l:%M:%S %p");
+		// end add seconds here
 	}
 
 	/* Reads the .prop file */
