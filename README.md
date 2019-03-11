@@ -21,6 +21,10 @@ https://github.com/c4pt000/komorebi-centos/releases
 
 * added support to display seconds with the wallpaper clock
 
+https://github.com/c4pt000/komorebi-centos/releases/tag/seconds
+
+https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
+
 ## CentOS
 
 <br>
