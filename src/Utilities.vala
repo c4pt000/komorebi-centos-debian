@@ -154,10 +154,12 @@ namespace Komorebi.Utilities {
 	/* Formats the date and time into a human read-able version */
 	public string formatDateTime (DateTime dateTime) {
 
-		if (OnScreen.timeTwentyFour)
-			return dateTime.format("%m/%d/%Y %H:%M");
 
-		return dateTime.format("%m/%d/%Y %l:%M %p");
+		// support added for seconds in the wallpaper clock
+		if (OnScreen.timeTwentyFour)
+			return dateTime.format("%m/%d/%Y %H:%M:%S");
+
+		return dateTime.format("%m/%d/%Y %l:%M:%S %p");
 	}
 
 	/* Reads the .prop file */
