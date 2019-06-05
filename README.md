@@ -249,6 +249,14 @@ Pete Lewis ([@PJayB](https://github.com/PJayB)) for adding mult-monitor support
 
 
 
+if you found this useful, anything helps
+
+1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
+
+https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
+
+
+![s1](https://i.imgur.com/py97aYA.png)
 
 
 
@@ -258,8 +266,3 @@ Pete Lewis ([@PJayB](https://github.com/PJayB)) for adding mult-monitor support
 
 
 
-f you found this useful, anything helps
-
-1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
-
-![s1](https://i.imgur.com/MVirCFO.png)
