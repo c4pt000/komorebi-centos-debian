@@ -44,6 +44,15 @@ brew install gtk+3 libgee pygobject clutter* gobject*
 <br>
 brew tap jcudit/homebrew-webkitgtk
 <br>
+brew install --HEAD jcudit/webkitgtk/webkitgtk
+<br>
+mkdir build
+<br>
+cd build
+<br>
+cmake ..
+<br>
+make -j16 package
 
 
 ## CentOS
@@ -77,7 +86,7 @@ cd build
 <br>
 cmake3 ..
 <br>
-make -j8 package
+make -j16 package
 
 
 
