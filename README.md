@@ -33,7 +33,7 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/seconds
 
 https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 
-## macOS
+## macOS (untested)
 brew install cmake
 <br>
 brew install libffi
