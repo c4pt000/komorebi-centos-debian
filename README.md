@@ -42,7 +42,9 @@ export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
 <br>
 brew install gtk+3 libgee pygobject clutter* gobject*
 <br>
-
+brew tap jcudit/homebrew-webkitgtk
+<br>
+brew install --HEAD jcudit/webkitgtk/webkitgtk
 <br>
 mkdir build
 <br>
