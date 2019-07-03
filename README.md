@@ -52,7 +52,7 @@ cd build
 <br>
 cmake ..
 <br>
-make -j16 package
+make -j16 install
 
 
 ## CentOS
