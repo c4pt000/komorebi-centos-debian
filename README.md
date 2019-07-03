@@ -35,9 +35,11 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 
 ## macOS
 brew install libffi
+<br>
 export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+<br>
 brew install gtk+3 libgee webkitgtk pygobject clutter* gobject*
-
+<br>
 
 
 ## CentOS
