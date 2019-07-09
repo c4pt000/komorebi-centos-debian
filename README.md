@@ -57,18 +57,23 @@ make -j16 install
 
 ## CentOS
 
+
 <br>
 
-yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 devtoolset-6 gtk3-devel
+devtoolset-4 or devtoolset-6 optional (devtoolset-6 recommended)
+
+yum install devtoolset-6
+
+yum install clutter* libgee-devel webkitgtk-devel.x86_64 webkitgtk4-devel.x86_64 vala-devel cmake3 gtk3-devel
 
 <br>
 
 yum install https://github.com/c4pt000/komorebi-centos/releases/download/gstreamer-libav/gstreamer1-libav-1.0.6-1.el7.nux.x86_64.rpm
 
-<br>
 
-scl enable devtoolset-6 bash
+(if devtoolset-6 is installed)
 <br>
+scl enable devtoolset-6 bash
 <br>
 cd /opt
 <br>
@@ -87,6 +92,41 @@ cd build
 cmake3 ..
 <br>
 make -j16 package
+
+
+## errors with libglvnd0 during compile -> undefined symbol: _glapi_tls_Current '
+<br>
+for errors related to ' undefined symbol: _glapi_tls_Current '
+<br>
+
+https://bugs.debian.org/cgi-bin/bugreport.cgi?att=0;bug=878968;msg=5	
+<br>
+
+	cd /usr/lib64/
+<br>
+	yum reinstall libglvnd*
+<br>
+	mkdir libglvnd-nvidia-orig
+<br>
+	mv libGLESv2_nvidia.so.* libglvnd-nvidia-orig/
+<br>
+	ldconfig 
+<br>
+	cd /opt/komorebi-centos
+<br>
+	mkdir build
+<br>
+	cd build/
+<br>
+	cmake3 ..
+<br>
+	make -j16 package
+<br>
+        rpm -Uvh komorebi-2.1.0-Linux.rpm 
+<br>
+	/System/Applications
+<br>
+        cp -rf komorebi* /usr/bin/
 
 
 
