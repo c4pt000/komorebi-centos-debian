@@ -101,34 +101,22 @@ for errors related to ' undefined symbol: _glapi_tls_Current '
 
 https://bugs.debian.org/cgi-bin/bugreport.cgi?att=0;bug=878968;msg=5	
 <br>
-
+```
 	cd /usr/lib64/
-<br>
 	yum reinstall libglvnd*
-<br>
 	mkdir libglvnd-nvidia-orig
-<br>
 	mv libGLESv2_nvidia.so.* libglvnd-nvidia-orig/
-<br>
 	ldconfig 
-<br>
 	cd /opt/komorebi-centos
-<br>
 	mkdir build
-<br>
 	cd build/
-<br>
 	cmake3 ..
-<br>
 	make -j16 package
-<br>
         rpm -Uvh komorebi-2.1.0-Linux.rpm 
-<br>
 	/System/Applications
-<br>
         cp -rf komorebi* /usr/bin/
 
-
+```
 
 # ** optional (nux-desktop)
 <br>
