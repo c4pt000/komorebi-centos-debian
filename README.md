@@ -123,6 +123,21 @@ https://bugs.debian.org/cgi-bin/bugreport.cgi?att=0;bug=878968;msg=5
 
  yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
 
+
+
+## (main theme set edits)
+
+## https://github.com/c4pt000/komorebi-centos/releases/download/theme-mod/Komorebi.tar.gz
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <br>
 
 yum install ffmpeg winff
@@ -146,9 +161,6 @@ ffmpeg -i video.ogv video.mp4
 
 
 
-(main theme set edits)
-
-https://github.com/c4pt000/komorebi-centos/releases/download/theme-mod/Komorebi.tar.gz
 
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE
