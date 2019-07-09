@@ -146,7 +146,9 @@ ffmpeg -i video.ogv video.mp4
 
 
 
+(main theme set edits)
 
+https://github.com/c4pt000/komorebi-centos/releases/download/theme-mod/Komorebi.tar.gz
 
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE
