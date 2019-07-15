@@ -138,7 +138,7 @@ https://pixabay.com/videos/search/motion%20backgrounds/
 <br>
 <br>
 <br>
-
+Position=0             <<- in the theme config to allow free floating placement of the time date indicator
 <br>
 
 yum install ffmpeg winff
