@@ -140,11 +140,30 @@ https://pixabay.com/videos/search/motion%20backgrounds/
 <br>
 Position=0             <<- in the theme config to allow free floating placement of the time date indicator
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 yum install ffmpeg winff
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 # ** scripts to help edit or create video wallpaper
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 cat /usr/bin/ffmpeg-to-jpg-conv 
 <br>
