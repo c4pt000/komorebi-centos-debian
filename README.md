@@ -174,6 +174,11 @@ cat /usr/bin/ffmpeg-jpg-to-mp4-conv
 <br>
 ffmpeg -r 1 -f image2 -i image-%3d.jpeg video.ogv
 
+<br>
+jpg to mp4 (another alternative)
+<br>
+ffmpeg -pattern_type glob -i "*.jpg" -c:v libx264 -pix_fmt yuv420p -movflags +faststart output.mp4
+
 
 # ** for conversion from .ogv to .mp4 format
 <br>
