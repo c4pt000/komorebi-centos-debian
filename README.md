@@ -130,8 +130,11 @@ https://bugs.debian.org/cgi-bin/bugreport.cgi?att=0;bug=878968;msg=5
 ## https://github.com/c4pt000/komorebi-centos/releases/download/theme-mod/Komorebi.tar.gz
 
 
+* other config
 <br>
+editing the config by setting Position=none
 <br>
+allow for free floating movement of date and time 
 <br>
 <br>
 https://pixabay.com/videos/search/motion%20backgrounds/
