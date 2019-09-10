@@ -134,7 +134,7 @@ https://bugs.debian.org/cgi-bin/bugreport.cgi?att=0;bug=878968;msg=5
 <br>
 editing the config by setting Position=none
 <br>
-allow for free floating movement of date and time 
+allows for free floating movement of date and time 
 <br>
 <br>
 https://pixabay.com/videos/search/motion%20backgrounds/
