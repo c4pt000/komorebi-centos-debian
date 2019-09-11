@@ -37,6 +37,10 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 
 ![blueprint-blackjack](https://user-images.githubusercontent.com/46433702/64658445-90285c80-d405-11e9-93d7-0774ac4cf26e.gif)
 
+
+https://github.com/c4pt000/komorebi-centos/releases/tag/blackjack-theme
+
+
 ## macOS (untested)
 brew install cmake
 <br>
