@@ -196,7 +196,10 @@ ffmpeg -pattern_type glob -i "*.jpg" -c:v libx264 -pix_fmt yuv420p -movflags +fa
 ffmpeg -i video.ogv video.mp4
 
 
+<br>
 
+mp4 to animated gif from 60 seconds que for 2.5 seconds
+ffmpeg -ss 61.0 -t 2.5 -i video.mp4 -filter_complex "[0:v] fps=12,scale=480:-1,split [a][b];[a] palettegen [p];[b][p] paletteuse" animated-out.gif
 
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE
