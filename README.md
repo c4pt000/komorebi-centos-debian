@@ -23,7 +23,7 @@ https://github.com/c4pt000/komorebi-centos/releases
 # *** 04-29-2019
 
 # * added support to display seconds with the wallpaper clock
-
+* first attempt "particles style animated low-res
 
 ![s1](https://i.imgur.com/xSC8of3.jpg)
 
