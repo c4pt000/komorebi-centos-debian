@@ -41,6 +41,11 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 https://github.com/c4pt000/komorebi-centos/releases/tag/blackjack-theme
 
 
+* 09-16-2019
+![animated-out](https://user-images.githubusercontent.com/46433702/65000037-1803e000-d8b8-11e9-92ac-6ce113f80175.gif)
+
+https://github.com/c4pt000/komorebi-centos/releases/tag/joker_scrnsvr
+
 ## macOS (untested)
 brew install cmake
 <br>
