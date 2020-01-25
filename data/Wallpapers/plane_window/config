@@ -14,7 +14,7 @@ RotationX=20
 RotationY=-5
 RotationZ=0
 
-Position=bottom_center
+Position=
 Alignment=center
 AlwaysOnTop=true
 
