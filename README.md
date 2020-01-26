@@ -1,12 +1,18 @@
 * update 01-25-2020
 <br>
 * all original themes most edited themes
-<br>
-if you found this useful please dontate i am homeless and practically starving, need gas day to day living needs
-<br>
-1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh
+
+* if you found this useful please dontate i am homeless and practically starving, need gas day to day living needs
+
+``` 1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh```
 ![s1](https://raw.githubusercontent.com/c4pt000/SKYTUNE-docker/master/deposit.png)
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 after pkg install rpm or deb
 <br>
 ```cp -rf /System/Applications/komorebi /usr/bin/```
