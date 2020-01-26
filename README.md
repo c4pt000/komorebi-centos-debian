@@ -1,5 +1,8 @@
 * update 01-25-2020
 * all original themes most edited themes
+if you found this useful please dontate i am homeless and practically starving, need gas day to day living needs
+1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh
+
 
 after pkg install rpm or deb
 <br>
