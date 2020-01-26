@@ -21,9 +21,9 @@ to run ```komorebi &```
 <br>
 regular startup script in System/Preferences/Startup Applications (on login)
 <br>
-https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-Linux.deb
+https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-Linux.extras.deb
 <br>
-https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-2.x86_64.rpm
+https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-2.x86_64.extras.rpm
 <br>
 if caja breaks use nemo
 
