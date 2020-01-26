@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/c4pt000/komorebi-centos-debian/master/animated-out.gif* update 01-25-2020
+* update 01-25-2020
 
 after pkg install rpm or deb
 <br>
