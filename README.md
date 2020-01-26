@@ -9,6 +9,8 @@ to run ```komorebi &```
 regular startup script in System/Preferences/Startup Applications (on login)
 <br>
 https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-Linux.deb
+<br>
+https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-2.x86_64.rpm
 
 
 https://github.com/c4pt000/komorebi-centos<p align="center"><img src="https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/screenshots/komorebi-icon.png" width="130"></p>
