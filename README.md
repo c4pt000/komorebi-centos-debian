@@ -1,4 +1,5 @@
 * update 01-25-2020
+* all original themes most edited themes
 
 after pkg install rpm or deb
 <br>
