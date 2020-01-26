@@ -1,10 +1,13 @@
 * update 01-25-2020
 
 after pkg install rpm or deb
+<br>
 ```cp -rf /System/Applications/komorebi /usr/bin/```
+<br>
 to run ```komorebi &```
+<br>
 regular startup script in System/Preferences/Startup Applications (on login)
-
+<br>
 https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-Linux.deb
 
 
