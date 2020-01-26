@@ -1,6 +1,9 @@
+* update 01-25-2020
 
 after pkg install rpm or deb
 cp -rf /System/Applications/komorebi /usr/bin/
+
+https://github.com/c4pt000/komorebi-centos-debian/releases/download/bundled/komorebi-2.1.0-Linux.deb
 
 
 https://github.com/c4pt000/komorebi-centos<p align="center"><img src="https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/screenshots/komorebi-icon.png" width="130"></p>
