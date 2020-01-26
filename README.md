@@ -1,4 +1,4 @@
-* update 01-25-2020
+https://raw.githubusercontent.com/c4pt000/komorebi-centos-debian/master/animated-out.gif* update 01-25-2020
 
 after pkg install rpm or deb
 <br>
@@ -56,8 +56,8 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 
 https://github.com/c4pt000/komorebi-centos/releases/tag/blackjack-theme
 
-![s1](https://github.com/c4pt000/komorebi-centos-debian/releases/download/theme_audioenabled/animated-out.gif)
-https://github.com/c4pt000/komorebi-centos-debian/releases/download/theme_audioenabled/animated-out.gif
+![s1] (https://raw.githubusercontent.com/c4pt000/komorebi-centos-debian/master/animated-out.gif)
+https://github.com/c4pt000/komorebi-centos-debian/releases/download/theme_audioenabled
 
 
 ![animated-out](https://user-images.githubusercontent.com/46433702/65000037-1803e000-d8b8-11e9-92ac-6ce113f80175.gif)
