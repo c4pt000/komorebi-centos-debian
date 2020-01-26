@@ -56,7 +56,6 @@ https://github.com/c4pt000/komorebi-centos/releases/tag/deb-seconds
 
 https://github.com/c4pt000/komorebi-centos/releases/tag/blackjack-theme
 
-hexadrop theme
 ![s1](https://github.com/c4pt000/komorebi-centos-debian/releases/download/theme_audioenabled/animated-out.gif)
 https://github.com/c4pt000/komorebi-centos-debian/releases/download/theme_audioenabled/animated-out.gif
 
