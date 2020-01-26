@@ -5,7 +5,6 @@
 if you found this useful please dontate i am homeless and practically starving, need gas day to day living needs
 <br>
 1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh
-<br>
 ![s1](https://raw.githubusercontent.com/c4pt000/SKYTUNE-docker/master/deposit.png)
 <br>
 after pkg install rpm or deb
