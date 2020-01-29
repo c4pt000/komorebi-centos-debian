@@ -1,4 +1,8 @@
 * update 01-25-2020
+
+
+* noticed gstreamer1-libav.x86_64 is mandatory and required for komorebi to function
+
 <br>
 * all original themes most edited themes
 
