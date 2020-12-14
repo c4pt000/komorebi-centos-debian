@@ -6,10 +6,7 @@
 <br>
 * all original themes most edited themes
 
-* if you found this useful please dontate i am homeless and practically starving, need gas day to day living needs
 
-``` 1AoWYYtiLcxpHjxK6Bc2GWFeGrihLRKXeh```
-![s1](https://raw.githubusercontent.com/c4pt000/SKYTUNE-docker/master/deposit.png)
 <br>
 <br>
 <br>
@@ -398,9 +395,7 @@ Pete Lewis ([@PJayB](https://github.com/PJayB)) for adding mult-monitor support
 <br>
 
 
-https://www.binance.com/en/buy-sell-crypto/channel-list/buy/USD/BTC/10
 
-on average its $5.00 USD to transmit bitcoin on most websites dealing with bitcoin
 
 
 
