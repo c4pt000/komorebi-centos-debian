@@ -206,7 +206,7 @@ yum install ffmpeg winff -y
 <br>
 <br>
 
-* --start
+# * --start
 # ** scripts to help edit or create video wallpaper
 <br>
 <br>
@@ -252,7 +252,7 @@ ffmpeg -ss 61.0 -t 2.5 -i video.mp4 -filter_complex "[0:v] fps=12,scale=480:-1,s
 ```
 <br>
 <br>
-* --end
+# * --end
 
 <br>
 <br>
