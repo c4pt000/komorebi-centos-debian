@@ -211,35 +211,28 @@ yum install ffmpeg winff -y
 <br>
 <br>
 cat /usr/bin/ffmpeg-to-jpg-conv 
-<br>
 ```
 ffmpeg -i ./video.ogv -r 1 -f image2 image-%3d.jpeg
 ```
 <br>
 cat /usr/bin/ffmpeg-jpg-to-mp4-conv
-<br>
 ```
 ffmpeg -r 1 -f image2 -i image-%3d.jpeg video.ogv
 ```
 <br>
 jpg to mp4 (another alternative)
-<br>
 ```
 ffmpeg -pattern_type glob -i "*.jpg" -c:v libx264 -pix_fmt yuv420p -movflags +faststart output.mp4
 ```
-
 # ** for conversion from .ogv to .mp4 format
 <br>
 ```
 ffmpeg -i video.ogv video.mp4
 ```
-
-
 * other (blank 60 second audio interweave)
 ```
  ffmpeg -t 60 -s 640x480 -f rawvideo -pix_fmt rgb24 -r 25 -i /dev/zero -i mp3-60sec.mp3 videoandmp3.avi
 ```
-
 <br>
 <br>
 <br>
