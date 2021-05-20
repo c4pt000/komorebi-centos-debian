@@ -190,53 +190,81 @@ Position=0             <<- in the theme config to allow free floating placement 
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-yum install ffmpeg winff
-<br>
-<br>
-<br>
+```
+yum install ffmpeg winff -y
+```
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+* --start
 # ** scripts to help edit or create video wallpaper
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 cat /usr/bin/ffmpeg-to-jpg-conv 
 <br>
+```
 ffmpeg -i ./video.ogv -r 1 -f image2 image-%3d.jpeg
-
+```
 <br>
 cat /usr/bin/ffmpeg-jpg-to-mp4-conv
 <br>
+```
 ffmpeg -r 1 -f image2 -i image-%3d.jpeg video.ogv
-
+```
 <br>
 jpg to mp4 (another alternative)
 <br>
+```
 ffmpeg -pattern_type glob -i "*.jpg" -c:v libx264 -pix_fmt yuv420p -movflags +faststart output.mp4
-
+```
 
 # ** for conversion from .ogv to .mp4 format
 <br>
+```
 ffmpeg -i video.ogv video.mp4
+```
 
+
+* other (blank 60 second audio interweave)
+```
+ ffmpeg -t 60 -s 640x480 -f rawvideo -pix_fmt rgb24 -r 25 -i /dev/zero -i mp3-60sec.mp3 videoandmp3.avi
+```
 
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 mp4 to animated gif from 60 seconds que for 2.5 seconds
+```
 ffmpeg -ss 61.0 -t 2.5 -i video.mp4 -filter_complex "[0:v] fps=12,scale=480:-1,split [a][b];[a] palettegen [p];[b][p] paletteuse" animated-out.gif
+```
+<br>
+<br>
+* --end
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## reason of fork
 ## CentOS/Fedora/RHEL/SuSE
