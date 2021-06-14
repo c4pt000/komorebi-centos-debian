@@ -1,0 +1,23 @@
+[Info]
+WallpaperType=video
+VideoFileName=video.mp4
+
+[DateTime]
+Visible=true
+Parallax=false
+MarginTop=0
+MarginRight=0
+MarginLeft=50
+MarginBottom=0
+RotationX=0
+RotationY=0
+RotationZ=0
+Position=
+Alignment=start
+AlwaysOnTop=true
+Color=aqua
+Alpha=255
+ShadowColor=#00AEAE
+ShadowAlpha=255
+TimeFont=Bangers 20
+DateFont=Bangers 20
