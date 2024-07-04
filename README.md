@@ -1,3 +1,5 @@
+# 07-04-2024 updated for fedora 38,39,40
+
 # Fedora 34 or Debian 10 only 12-01-2023
 
 * update 01-25-2020
